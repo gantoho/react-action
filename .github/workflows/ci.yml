@@ -11,10 +11,6 @@ jobs:
       uses: actions/checkout@v3
       with:
         persist-credentials: false
-    - name: Node`s Version
-      uses: actions/setup-node@v3
-      with:
-        node-version: '16'
     - name: Install and Build
       run: |
         npm install
